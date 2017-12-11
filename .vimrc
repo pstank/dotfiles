@@ -1,17 +1,21 @@
-" don't try to be vi-compatible
-set nocompatible
+scriptencoding utf-8
+
+set nocompatible "don't try to be vi-compatible
 
 set cmdheight=2
-set autoindent
 
-"show file stats
-set ruler
-set tabstop=4
+set ruler "shows file stats
+"set tabstop=4
+"set softtabstop=0 noexpandtab
+"set shiftwidth=4
 
-" turn on syntax highlighting
-syntax on
+syntax on "turn the syntax recognition on
 
 colorscheme badwolf " color files are located in /usr/share/vim/vim80/colors
-syntax on
-set number
+set number relativenumber
+
+"set autoindent
+set cindent "set indentation according to the C standard
+set cursorline
+set hlsearch "highlights my searches
 
