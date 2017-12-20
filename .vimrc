@@ -17,5 +17,5 @@ set number relativenumber
 "set autoindent
 set cindent "set indentation according to the C standard
 set cursorline
-set hlsearch "highlights my searches
+"set hlsearch "highlights my searches
 
